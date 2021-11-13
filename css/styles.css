@@ -157,12 +157,12 @@ button {
 .hero {
   background-color: #2f303a;
   height: 600px;
+  margin-bottom: 94px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
 }
 
 .hero-title {
@@ -170,7 +170,6 @@ button {
   font-size: 44px;
   line-height: 1.36;
 
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -198,10 +197,21 @@ button {
 
   margin-left: 500px;
   margin-right: 500px;
-  margin-bottom: 210px;
 }
 
 /*--------------Features and what we do----------------*/
+
+.features-container {
+  padding-bottom: 94px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list-item:not(:last-child) {
+  margin-left: 30px;
+}
 
 .features-list-subtitle {
   font-weight: 700;
@@ -211,6 +221,8 @@ button {
   text-transform: uppercase;
 
   color: var(--second-title-color);
+
+  margin-bottom: 10px;
 }
 
 .features-list-text {
@@ -229,9 +241,32 @@ button {
   letter-spacing: 0.03em;
 
   color: var(--second-title-color);
+
+  margin-bottom: 50px;
+}
+
+.features-list-pictures {
+  display: flex;
+}
+
+.list-picture {
+  margin-right: 30px;
+}
+
+.list-picture:nth-child(3n) {
+  margin-right: 0;
 }
 
 /*------------------------OUR TEAM------------------------*/
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .our-team-title {
   font-weight: 700;
@@ -242,6 +277,12 @@ button {
   letter-spacing: 0.03em;
 
   color: var(--second-title-color);
+
+  margin-bottom: 50px;
+}
+
+.our-team-list {
+  display: flex;
 }
 
 .our-team-subtitle {
@@ -266,19 +307,35 @@ button {
   color: var(--main-text-color);
 }
 
+.our-team-item {
+  margin-right: 30px;
+}
+
+.our-team-item:nth-child(4n) {
+  margin-bottom: 0;
+}
+
 /*------------------------FOOTER-----------------------*/
 
-.basement {
+.footer {
   background-color: #2f303a;
 }
 
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .logo-footer {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
+
+  margin-bottom: 20px;
 }
 
 .footer-contacts {
@@ -287,6 +344,10 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--header-text-color-second);
+}
+
+.map-navigation {
+  color: var(--second-text-color);
 }
 
 .footer-list-item-map {
