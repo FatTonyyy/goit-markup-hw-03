@@ -355,12 +355,25 @@ button {
   margin-bottom: 20px;
 }
 
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-text-color);
+}
+
 .footer-contacts {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--header-text-color-second);
+}
+
+.footer-list-item {
+  margin-bottom: 9px;
+}
+
+.footer-list-item:last-child {
+  margin-bottom: 0;
 }
 
 .map-navigation {
