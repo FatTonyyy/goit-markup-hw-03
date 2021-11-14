@@ -157,8 +157,8 @@ button {
 .hero {
   background-color: #2f303a;
   height: 600px;
-  margin-bottom: 94px;
   padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .hero-container {
@@ -175,9 +175,8 @@ button {
 
   color: var(--main-title-color);
 
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-top: 215px;
+  max-width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
@@ -194,19 +193,18 @@ button {
 
   color: var(--second-text-color);
   background-color: var(--accent-text-color);
-
-  margin-left: 500px;
-  margin-right: 500px;
 }
 
 /*--------------Features and what we do----------------*/
 
 .features-container {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .features-list {
   display: flex;
+  margin-bottom: 94px;
 }
 
 .features-list-item:not(:last-child) {
@@ -281,8 +279,19 @@ button {
   margin-bottom: 50px;
 }
 
+.our-team-item {
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .our-team-list {
   display: flex;
+}
+
+.our-team-image {
+  margin-bottom: 30px;
 }
 
 .our-team-subtitle {
@@ -294,6 +303,8 @@ button {
   letter-spacing: 0.03em;
 
   color: var(--second-title-color);
+
+  margin-bottom: 10px;
 }
 
 .our-team-text {
