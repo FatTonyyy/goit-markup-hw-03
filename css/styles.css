@@ -385,9 +385,29 @@ button {
 }
 /*--------------------------PORTFOLIO PAGE-----------------*/
 
+.portfolio-container {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 /*-------------------------------PORTFOLIO BUTTONS-----------------*/
 
 .button-list {
+  display: flex;
+  padding-left: 280px;
+  padding-right: 280px;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.button-item {
+  margin-right: 8px;
+}
+
+.button-item:last-child {
+  margin-right: 0;
+}
+.button-style {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -397,18 +417,43 @@ button {
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
   color: var(--fourth-text-color);
+
+  border-radius: 4px;
+  border-color: #f5f4fa;
 }
 
-.button-list:hover,
-.button-list:focus {
+.button-style:hover,
+.button-style:focus {
   color: var(--second-text-color);
   background-color: var(--accent-text-color);
 }
 
-.button-cursor-style {
-  cursor: pointer;
-}
 /*-------------------------------PORTFOLIO LIST-----------------*/
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.portfolio-item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+
+  margin: 14px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
+.portfolio-image {
+  margin-bottom: 20px;
+}
+
+.portfolio-text-styles {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
 
 .portfolio-list-subtitle {
   font-weight: 700;
@@ -418,6 +463,8 @@ button {
   letter-spacing: 0.06em;
 
   color: var(--second-title-color);
+
+  margin-bottom: 4px;
 }
 
 .portfolio-list-text {
