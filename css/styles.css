@@ -59,6 +59,11 @@ button {
   margin: -1px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -71,6 +76,7 @@ button {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid var(--header-text-color-second);
 }
 
 .header-logo {
@@ -156,7 +162,7 @@ button {
 
 .hero {
   background-color: #2f303a;
-  height: 600px;
+  /* max-height: 600px; */
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -197,10 +203,10 @@ button {
 
 /*--------------Features and what we do----------------*/
 
-.features-container {
+/* .features-container {
   padding-bottom: 94px;
   padding-top: 94px;
-}
+} */
 
 .features-list {
   display: flex;
@@ -261,10 +267,10 @@ button {
   background-color: #f5f4fa;
 }
 
-.our-team-container {
+/* .our-team-container {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .our-team-title {
   font-weight: 700;
@@ -385,10 +391,10 @@ button {
 }
 /*--------------------------PORTFOLIO PAGE-----------------*/
 
-.portfolio-container {
+/* .portfolio-container {
   padding-top: 90px;
   padding-bottom: 90px;
-}
+} */
 
 /*-------------------------------PORTFOLIO BUTTONS-----------------*/
 
