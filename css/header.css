@@ -1,9 +1,22 @@
 .header {
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.header-logo {
+  margin-right: 76px;
+}
+
 .main-nav {
+  margin-right: auto;
 }
 .main-nav-list {
+  display: flex;
+  gap: 40px;
 }
 .main-nav-item {
 }
@@ -13,5 +26,21 @@
 }
 .main-nav-link:hover,
 .main-nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+}
+.contact-info-list {
+  display: flex;
+  gap: 40px;
+}
+.contact-info-item {
+}
+
+.contact-info-link {
+}
+.contact-info-link:hover,
+.contact-info-link:focus {
   color: #404bbf;
 }

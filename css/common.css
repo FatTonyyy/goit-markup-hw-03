@@ -9,11 +9,15 @@ body {
   background-color: #fff;
 }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -26,6 +30,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-left: 0;
 }
 
 button {
@@ -51,18 +56,10 @@ address {
   color: #4d5ae5;
 }
 
-.contact-info {
-}
-.contact-info-list {
-}
-.contact-info-item {
-}
-
-.contact-info-link {
-}
-.contact-info-link:hover,
-.contact-info-link:focus {
-  color: #404bbf;
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Button */
